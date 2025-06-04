@@ -11,7 +11,7 @@ enum MenuItem: String, CaseIterable, Identifiable {
     
     case home = "house"
     case positionSizeCalculator = "flame.fill"
-    case aaa = "megaphone.fill"
+    case performanceProjecting = "chart.line.uptrend.xyaxis"
     case sdf = "magnifyingglass.circle.fill"
     case shdsfs = "info.triangle.fill"
     case hsdgsh = "staroflife.shield.fill"

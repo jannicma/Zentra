@@ -23,16 +23,19 @@ struct MainNavigation: View {
                         HomeView()
                     case .positionSizeCalculator:
                         PositionSizeCalculatorView()
+                    case .performanceProjecting:
+                        PerformanceProjectingView()
                     default:
                         Text("Page for \(selectedMenuItem.rawValue)")
                             .font(.largeTitle)
                             .padding()
                     }
                 }
+                .padding(.bottom, 100)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 
                 HorizontalMenuBar(selectedMenuItem: $selectedMenuItem)
-                    .padding(.bottom, 10)
+                    .padding(.bottom, 5)
                 
             }
         }
